@@ -1,0 +1,13 @@
+{
+  "name": "f1-event-miami-hospitality",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Miami Grand Prix hospitality web experience — living SVG venue + interactive hospitality map.",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node tests/smoke.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}

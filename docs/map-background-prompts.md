@@ -1,0 +1,40 @@
+# HD campus map candidates
+
+Status: generation blocked by image-generation account usage limit. No candidate images produced. Existing background unchanged.
+
+Tool: built-in image generation.
+Reference: ../assets/images/campus-map.png
+
+## 1. Champagne Architectural
+
+Use case: style-transfer.
+Asset type: high resolution background image for an interactive InList hospitality campus map.
+Image 1 is the edit target and sole geographic authority. Redesign this existing Miami Formula 1 campus map with substantially sharper, richer architectural and landscape details. Create ONE finished image, not a mockup, collage or comparison.
+STRICT GEOGRAPHY INVARIANTS: Keep the exact original top-down aerial orientation, overall crop, entire circuit outline, track turn topology, road network, building footprints and relative coordinates. No rotation, perspective tilt or rearrangement. Central Hard Rock Stadium stays at the same size and position. MIA Marina remains lower left, north canal stays along top edge, far eastern loop and beach remain on right, parking remains at bottom right. Keep all edges and entire circuit in frame. The output will have percentage-positioned interactive pins added later, so preserve normalized XY locations faithfully.
+Increase visible fine detail in roof trusses, terraces, grandstand seat rows, palms, paths, curbs, paddock structures, marina decks, parking lanes and landscaped areas, without inventing new major buildings or roads. Crisp bounded geometry, clean anti-aliasing, readable separation of track, buildings and terrain. No blur, no gritty grain, no heavy vignette hiding information.
+No baked-in UI, no numbered pins, no popups, no buttons, no legend, no title banner, no decorative frame, no watermark. Remove text labels and brand logos from the source rather than generate illegible tiny type; labels and clickable overlays will be handled by the app.
+Output a very high resolution landscape PNG, target about 3840 x 2102, maintaining the original 2178:1192 aspect ratio.
+VISUAL DIRECTION: Premium architectural masterplan for InList. A precisely detailed orthographic architectural scale model: matte graphite terrain, charcoal asphalt track with restrained fine champagne-gold #d5ab6d edge delineation; pale warm ivory and brushed champagne architectural roofs, crisp layered stadium canopy structure, dark olive palms and manicured planting, near-black blue-green water. Warm directional ambient studio lighting with subtle realistic short shadows that reveal roof forms. Detailed beautiful physical materials and elegant tonal hierarchy. InList palette black #010000, surface #141414, ivory #f7f7f7, champagne #d5ab6d. The map must be bright and legible enough to explore with no additional darkening required, finely rendered and luxurious, not a flat schematic and not a glowing sci-fi map.
+
+## 2. Miami Daylight
+
+Use case: style-transfer.
+Asset type: high resolution background image for an interactive InList hospitality campus map.
+Image 1 is the edit target and sole geographic authority. Redesign this existing Miami Formula 1 campus map with substantially sharper, richer architectural and landscape details. Create ONE finished image, not a mockup, collage or comparison.
+STRICT GEOGRAPHY INVARIANTS: Keep the exact original top-down aerial orientation, overall crop, entire circuit outline, track turn topology, road network, building footprints and relative coordinates. No rotation, perspective tilt or rearrangement. Central Hard Rock Stadium stays at the same size and position. MIA Marina remains lower left, north canal stays along top edge, far eastern loop and beach remain on right, parking remains at bottom right. Keep all edges and entire circuit in frame. The output will have percentage-positioned interactive pins added later, so preserve normalized XY locations faithfully.
+Increase visible fine detail in roof trusses, terraces, grandstand seat rows, palms, paths, curbs, paddock structures, marina decks, parking lanes and landscaped areas, without inventing new major buildings or roads. Crisp bounded geometry, clean anti-aliasing, readable separation of track, buildings and terrain. No blur, no gritty grain, no heavy vignette hiding information.
+No baked-in UI, no numbered pins, no popups, no buttons, no legend, no title banner, no decorative frame, no watermark. Remove text labels and brand logos from the source rather than generate illegible tiny type; labels and clickable overlays will be handled by the app.
+Output a very high resolution landscape PNG, target about 3840 x 2102, maintaining the original 2178:1192 aspect ratio.
+VISUAL DIRECTION: Exquisitely detailed realistic aerial architectural rendering in warm late-afternoon Miami daylight. Bright ivory stadium roof with clear structural detail, naturally nuanced olive and emerald palms, manicured grass, restrained turquoise canal and marina water, beautiful hospitality decks and cabanas, crisp silver-white stands, natural charcoal race asphalt. Warm champagne sunlight ties it to the InList luxury black-and-gold palette. Sophisticated natural colors, not cartoonish oversaturation. Very high microdetail and professionally clean site visualization with gentle short shadows, no haze, crisp readable buildings and roads. Keep top-down projection exactly as the reference. This should look like a premium resort masterplan aerial with depth and material detail, not a satellite photo blur.
+
+## 3. Twilight Circuit
+
+Use case: style-transfer.
+Asset type: high resolution background image for an interactive InList hospitality campus map.
+Image 1 is the edit target and sole geographic authority. Redesign this existing Miami Formula 1 campus map with substantially sharper, richer architectural and landscape details. Create ONE finished image, not a mockup, collage or comparison.
+STRICT GEOGRAPHY INVARIANTS: Keep the exact original top-down aerial orientation, overall crop, entire circuit outline, track turn topology, road network, building footprints and relative coordinates. No rotation, perspective tilt or rearrangement. Central Hard Rock Stadium stays at the same size and position. MIA Marina remains lower left, north canal stays along top edge, far eastern loop and beach remain on right, parking remains at bottom right. Keep all edges and entire circuit in frame. The output will have percentage-positioned interactive pins added later, so preserve normalized XY locations faithfully.
+Increase visible fine detail in roof trusses, terraces, grandstand seat rows, palms, paths, curbs, paddock structures, marina decks, parking lanes and landscaped areas, without inventing new major buildings or roads. Crisp bounded geometry, clean anti-aliasing, readable separation of track, buildings and terrain. No blur, no gritty grain, no heavy vignette hiding information.
+No baked-in UI, no numbered pins, no popups, no buttons, no legend, no title banner, no decorative frame, no watermark. Remove text labels and brand logos from the source rather than generate illegible tiny type; labels and clickable overlays will be handled by the app.
+Output a very high resolution landscape PNG, target about 3840 x 2102, maintaining the original 2178:1192 aspect ratio.
+VISUAL DIRECTION: Luxurious blue-hour architectural aerial at dusk for InList. Deep charcoal grounds, elegantly illuminated ivory stadium canopy, finely detailed graphite structures, restrained champagne-gold warm light from hospitality lounges, paths and terraces; cool slate-teal canal and marina, subtle green landscaping. The race circuit remains clearly readable as medium charcoal asphalt, with warm white trackside illumination and crisp barriers. Beautiful restrained realistic architectural lighting, no glowing fantasy track, no neon, no lens flares. Retain abundant visible midtone detail across the entire map, not black crushed shadows. A refined high-definition night-event atlas with materially rich rooftops, precisely rendered stands, tiny individually visible palms and parking lines.
+

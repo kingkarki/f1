@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#010000">
+  <title>InList · Miami Hospitality Map</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+  <main>
+    <header class="masthead"><img src="assets/brand/inlist.svg" alt="InList" class="logo"><span class="masthead-label">EXTRAORDINARY EXPERIENCES</span><span class="edition">MIAMI <span>2027</span></span></header>
+    <section class="intro" aria-labelledby="page-title"><div><p class="eyebrow">FORMULA 1 MIAMI GRAND PRIX</p><h1 id="page-title">YOUR WEEKEND. <span>YOUR VANTAGE POINT.</span></h1></div><p class="intro-copy">Explore the circuit. Find your place.<br> Seven ways to experience race weekend.</p></section>
+    <section class="experience" aria-label="Interactive hospitality map">
+      <div class="toolbar"><div class="filters" role="group" aria-label="Filter hospitality"><button class="filter active" data-filter="all" aria-pressed="true">All experiences <span>7</span></button><button class="filter" data-filter="private" aria-pressed="false">Private spaces</button><button class="filter" data-filter="club" aria-pressed="false">Club & seating</button></div><div class="map-options"><button class="map-style" id="map-style" aria-pressed="true"><span class="swatch"></span><span>InList palette</span></button></div></div>
+      <div class="workspace">
+        <div class="map-column">
+          <div id="viewport" class="viewport natural" tabindex="0" aria-label="Campus map. Select a numbered location. Use plus or minus to zoom and arrow keys to pan.">
+            <div class="map-top"><span class="map-caption"><span class="live-dot"></span> EXPLORE THE CAMPUS</span><span class="location">HARD ROCK STADIUM · MIAMI</span></div>
+            <div id="stage" class="stage"><img class="map-image" src="previews/candidates/twilight-circuit.png" alt="Twilight Circuit Miami Grand Prix campus map" draggable="false"><svg class="zones" viewBox="0 0 1000 547.29" aria-hidden="true"><g id="zone-shapes"></g></svg><div id="pins"></div></div>
+            <div class="map-bottom"><span class="map-help">Drag to explore <span>·</span> Select a pin for details</span><div class="controls"><button id="zoom-out" aria-label="Zoom out">−</button><output id="zoom-level" aria-live="polite">100%</output><button id="zoom-in" aria-label="Zoom in">+</button><span class="separator"></span><button id="reset" aria-label="Reset map view" title="Reset view">↺</button><button id="fullscreen" aria-label="Enter fullscreen" title="Fullscreen">⛶</button></div></div>
+          </div>
+          <div class="map-key"><span><i></i> Hospitality locations</span><span>Locations are indicative · Select to discover</span></div>
+        </div>
+        <aside class="detail" aria-label="Selected hospitality experience"><div id="details" aria-live="polite"></div></aside>
+      </div>
+      <nav class="destinations" id="destinations" aria-label="Hospitality experiences"></nav>
+    </section>
+    <footer><span>THE CIRCUIT, AT YOUR FINGERTIPS.</span><span>INLIST <span class="footer-divider">/</span> MIAMI 2027</span></footer>
+  </main>
+  <script src="js/map.js"></script>
+</body>
+</html>
